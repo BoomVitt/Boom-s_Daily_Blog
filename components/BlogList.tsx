@@ -8,7 +8,7 @@ type Props = {
 };
 
 function BlogList({ posts }: Props) {
-  
+
   return (
     <div>
       <hr className="border-[#F7AB0A] mb-10" />
@@ -72,6 +72,7 @@ function BlogList({ posts }: Props) {
         ))}
       </div>
     </div>
+    
   );
 }
 

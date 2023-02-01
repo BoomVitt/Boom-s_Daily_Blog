@@ -23,7 +23,7 @@ function Header() {
             href="https://www.linkedin.com/in/vittawat-sootawee-95a82920b/"
             className="px-5 py-3 text-sm md:text-base bg-black rounded-full text-[#F7AB0A] font-bold ml-2"
           >
-            Want to know me more ?
+            About me
           </Link>
         </div>
 
