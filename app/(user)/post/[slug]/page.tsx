@@ -44,7 +44,7 @@ async function Post({ params: { slug } }: Props) {
     <article className="px-10 pb-28">
      
 
-      <section className="scace-y-2 border border-[#F7AB0A] text-white">
+      <section className="scace-y-2 border border-[#F7AB0A] text-black">
         <div className="relative min-h-56 flex flex-col md:flex-row justify-between">
           <div className="absolute top-0 w-full h-full opacity-10 blur-sm p-10">
             <Image
@@ -59,7 +59,7 @@ async function Post({ params: { slug } }: Props) {
             <div className="flex flex-col md:flex-row justify-between gap-y-5">
               <div>
                 <h1 className="text-4xl font-extrabold">{post.title}</h1>
-                <p>
+                <p>Uploaded:{" "}
                   {new Date(post._createdAt).toLocaleDateString("th-TH", {
                     day: "numeric",
                     month: "long",

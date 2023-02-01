@@ -4,6 +4,7 @@ type Base = {
     _updatedAt: string;
     _rev: string;
     _type: string;
+
     
 };
 
@@ -15,6 +16,7 @@ interface Post extends Base {
     slug: Slug;
     title: string;
     description: string;
+    publishedAt: string;
 }
 
 interface Author extends Base {

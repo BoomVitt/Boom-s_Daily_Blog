@@ -8,7 +8,7 @@ type Props = {
 };
 
 function BlogList({ posts }: Props) {
-
+  console.log(posts);
   return (
     <div>
       <hr className="border-[#F7AB0A] mb-10" />
@@ -36,8 +36,8 @@ function BlogList({ posts }: Props) {
                 >
                   <div>
                     <p className="font-bold">{post.title}</p>
-                    <p>
-                      {new Date(post._createdAt).toLocaleDateString("th-TH", {
+                    <p>Since:{" "}
+                      {new Date(post.publishedAt).toLocaleDateString("th-TH", {
                         day: "numeric",
                         month: "long",
                         year: "numeric",
