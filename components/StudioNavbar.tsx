@@ -11,7 +11,7 @@ function StudioNavbar(props: NavbarProps) {
         Go to website</Link>
         <div className="hidden md:flex p-5 rounded-lg justify-center border-2 border-[#7AB0A]">
             <h1 className="font-bold text-white">
-                About me
+                More about me
             </h1>
             <Link
                 href="https://www.linkedin.com/in/vittawat-sootawee-95a82920b/"
